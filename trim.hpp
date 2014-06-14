@@ -1,5 +1,5 @@
-#ifndef SIOF_STD_STRING_TRIM
-#define SIOF_STD_STRING_TRIM
+#ifndef SIOF_STRING_UTILS_TRIM
+#define SIOF_STRING_UTILS_TRIM
 
 #include <string>
 
@@ -19,4 +19,5 @@ namespace siof
         str = trim(const_cast<const std::basic_string<T>& >(str));
     }
 }
-#endif // SIOF_STD_STRING_TRIM
+
+#endif // SIOF_STRING_UTILS_TRIM
