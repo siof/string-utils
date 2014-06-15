@@ -10,7 +10,7 @@ namespace siof
     namespace utils
     {
         template<class T>
-        static inline std::vector<std::basic_string<T> > split(const std::basic_string<T> & str, T delim = '\n')
+        static inline std::vector<std::basic_string<T> > && split(const std::basic_string<T> & str, T delim = '\n')
         {
             std::vector<basic_string<T> > splitted;
             std::basic_stringstream<T> ss(str);
